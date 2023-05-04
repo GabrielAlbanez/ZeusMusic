@@ -1,0 +1,137 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -maz-osx-font-smoothing: grayscale;
+    background-color: #2f2e2e
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200&display=swap');
+
+
+
+.img{
+    background-image: url('https://site-porque.s3.amazonaws.com/36378562_l-1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+.opacity{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top,black 10%,transparent 90% );
+    background-color: black;
+    opacity: 0.9;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 300px;
+    
+}
+
+.navbar{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+}
+
+.form1{
+    display: flex;
+    gap: 40px;
+    padding-right: 100px;
+    background-color: #000000;
+}
+.text{
+    padding-left: 20px;
+    background-color: #000000;
+    color: #2FBC78;
+}
+
+h1,button{
+    background-color: #000000;
+}
+
+.textoBody{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.9;
+    color: #2FBC78;
+    padding-top: 70px;
+    
+}
+
+.textoBody2{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.9;
+    color: #2FBC78;
+    padding-top: 70px;
+    
+}
+
+
+.degrade-vertical{
+ width: 100%;
+ height: 70%;
+background-color: #000000;
+padding: 8%;
+color: #2FBC78;
+}
+
+
+.textoBody3{
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    
+    color: #2FBC78;
+    padding-top: 10px;
+    
+}
+
+.divTopicos{
+    margin-top: 40px;
+    margin-right: 40px
+}
+
+.iconImg{
+width: 100%;
+height: 100%;
+background-color: #000000;
+}
+
+.divic{
+display: flex;
+background-color: #000000;
+align-items: center;
+gap: 12px;
+
+
+}
+
+.diviconn{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
