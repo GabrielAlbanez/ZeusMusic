@@ -8,7 +8,7 @@
 }
 
 .Text{
-    font-size: 80px;
+    font-size: 40px;
 
 }
 .divTexto{
@@ -20,7 +20,7 @@
 .fundo{
     width: 100%;
     height: 100vh;
-    background-image: url("img/vinilWall.jpg");
+    background-image: url("img/axulWabe.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -59,11 +59,13 @@
 
 .inputEmail,.inputPassword{
     position: relative;
-    height: 60px;
+    height: 70px;
     width: 80%;
     border-bottom: 2px solid #efefef;
     display: flex;
     flex-direction: column;
+    padding-top: -30px;
+ 
 
 }
 
@@ -72,9 +74,10 @@
     width: 100%;
     border: none;
     outline: none;
-    background: transparent;
     color: white;
-    margin-top: -20px;
+    background: transparent;
+    
+
 
 }
 
@@ -92,3 +95,9 @@
     width: 30px;
     height: 30px;
 }
+
+.espaco{
+    height: 200px;
+    background:transparent;
+}
+
