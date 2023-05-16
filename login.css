@@ -41,9 +41,10 @@
     border-radius: 2%;
     backdrop-filter: blur(20px);
     background-color: transparent;
-    border: 4px solid rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
     align-items: center;
     padding-top: 100px; 
+    position: absolute;
 }
 
 .seguradoraInput{
@@ -85,8 +86,7 @@
     position: relative;
     display: flex;
     justify-content: end;
-    margin-top: -15px;
-    color: aliceblue;
+    margin-top: -18px;
 
    
 }
@@ -97,7 +97,80 @@
 }
 
 .espaco{
-    height: 200px;
+    height: 300px;
     background:transparent;
 }
+.abaixoInput{
+    color: white;
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.Registrar{
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: aquamarine;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.iconeClick{
+    width: 30px;
+    height: 30px;
+}
+
+.LembrarSenha{
+    display: flex;
+    gap: 9px;
+}
+
+.botaoLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.button{
+    border: 1px solid #16d297;
+    border-radius: 6px;
+    width: 30%;
+    height:  40px;
+}
+
+.EsquciSenha{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    justify-content: center;
+}
+.iconeClick2{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.voltarIncio{
+    position: relative;
+    margin-bottom: 900px;
+    width: 100%;
+    padding: 30px;
+    color: white;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.iconArrow{
+
+    width: 30px;
+    height: 30px;
+}
