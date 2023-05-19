@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Text,.labelEmail,.labelSenha{
+    color: white;
+}
+
+.Text{
+    font-size: 40px;
+
+}
+
+
+.divRegistrar{
+    color: aliceblue;
+    height: 40px;
+}
+
+
+
+.fundo{
+    width: 100%;
+    height: 100vh;
+    background-image: url("img/axulWabe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 4.0;
+    backdrop-filter: blur(20px);
+
+}
+
+.formulario{
+    width:40%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border-radius: 2%;
+    backdrop-filter: blur(20px);
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    align-items: center;
+    padding-top: 100px; 
+    position: absolute;
+    justify-content: center;
+}
+
+.seguradoraInput{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.inputEmail,.inputPassword{
+    position: relative;
+    height: 70px;
+    width: 80%;
+    border-bottom: 2px solid #efefef;
+    display: flex;
+    flex-direction: column;
+    padding-top: -30px;
+ 
+
+}
+
+
+.input{
+    width: 100%;
+    border: none;
+    outline: none;
+    color: white;
+    background: transparent;
+    
+
+
+}
+
+.icons{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    margin-top: -18px;
+
+   
+}
+
+.tamhoIMG{
+    width: 30px;
+    height: 30px;
+}
+
+.espaco{
+    height: 300px;
+    background:transparent;
+}
+.abaixoInput{
+    color: white;
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Registrar{
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: aquamarine;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.iconeClick{
+    width: 30px;
+    height: 30px;
+}
+
+.LembrarSenha{
+    display: flex;
+    gap: 9px;
+}
+
+.botaoLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.button{
+    border: 1px solid #16d297;
+    border-radius: 6px;
+    width: 30%;
+    height:  40px;
+    margin-top: 170px;
+}
+
+.EsquciSenha{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    justify-content: center;
+}
+.iconeClick2{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.voltarIncio{
+    position: relative;
+    margin-bottom: 900px;
+    width: 100%;
+    padding: 30px;
+    color: white;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.iconArrow{
+
+    width: 30px;
+    height: 30px;
+}
