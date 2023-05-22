@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -11,12 +12,20 @@
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
     crossorigin="anonymous"
   />
-    <link rel="stylesheet" href="../registro.css" />
+    <link rel="stylesheet" href="./registro.css" />
   </head>
-  <body>
+  <body> -->
+
+<?php
+require_once("./php/partials/header.php");
+require_once("../../conexao/conexao.php");
+
+?>
+
+
     <div class="fundo">
       <div class="voltarIncio">
-        <div> <a href="./paginaEntrada.html"> <img src="../img/left-arrow.png" alt="" class="iconArrow"> </a></div>
+        <div> <a href="../paginaIntro/paginaEntrada.php"> <img src="../../img/left-arrow.png" alt="" class="iconArrow"> </a></div>
          <div>voltar</div>
     </div>
 
@@ -35,8 +44,10 @@
             </div>
           
             <div class="divPegaInput">
-              <div class="icons"><img src="../img/gmail.png" alt="" class="tamhoIMG"></div>
-              <input type="email" name="" id="" class="input" />
+              <div class="icons"><img src="../../img/user.png" alt="" class="tamhoIMG"></div>
+              <form action="./php/registro.php" method="post">
+              <input type="email" name="Nome" id="" class="input" />
+            </form>
            
             </div>
             <div class="espaco"></div>
@@ -49,9 +60,10 @@
             </div>
           
             <div class="divPegaInput">
-              <div class="icons"><img src="../img/gmail.png" alt="" class="tamhoIMG"></div>
-              <input type="email" name="" id="" class="input" />
-           
+              <div class="icons"><img src="../../img/user.png" alt="" class="tamhoIMG"></div>
+              <form action="./php/registro.php" method="post">
+              <input type="email" name="Idade" id="" class="input" />
+            </form>
             </div>
             <div class="espaco"></div>
           </div>
@@ -64,8 +76,10 @@
             </div>
           
             <div class="divPegaInput">
-              <div class="icons"><img src="../img/gmail.png" alt="" class="tamhoIMG"></div>
-              <input type="email" name="" id="" class="input" />
+              <div class="icons"><img src="../../img/envelope.png" alt="" class="tamhoIMG"></div>
+              <form action="./php/registro.php" method="post">
+              <input type="email" name="Email" id="" class="input" />
+            </form>
            
             </div>
             <div class="espaco"></div>
@@ -77,12 +91,16 @@
 
             <div>
                 
-              <div class="icons"><img src="../img/security.png" alt="" class="tamhoIMG"></div>
-              <input type="password" name="" id="" class="input" />
+              <div class="icons"><img src="../../img/security.png" alt="" class="tamhoIMG"></div>
+              <form action="./php/registro.php" method="post">
+              <input type="password" name="Password" id="" class="input" />
+            </form>
             </div>
             </div>
             </div>
-            <button class="button">Registrar</button>
+            <form action="./php/registro.php" method="post">
+            <button class="button" type="submit">Regitrar</button>
+            </form>
           </div>
           </div>
            <div class="botaoLogin">
@@ -91,5 +109,9 @@
         </div>
       </div>
     </div>
-  </body>
-</html>
+  <!-- </body>
+</html> -->
+<?php
+require_once("./php/partials/header.php")
+
+?>
